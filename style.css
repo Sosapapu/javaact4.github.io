@@ -1,0 +1,84 @@
+/* Estilo del body en modo claro */
+body {
+  margin: auto;
+  margin-top: 150px;
+  width: 300px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Estilo del botón en modo claro */
+#BotonModo {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Estilo del body en modo oscuro */
+.dark-mode {
+  background-color: #333;
+  color: #f5f5f5;
+}
+
+/* Estilo del botón en modo oscuro */
+.dark-mode #BotonModo {
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Estilo del Elemento 1 */
+#elemento1 {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+/* Estilo del Elemento 2 */
+#elemento2 {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+/* Estilo del Elemento 3 */
+#elemento3 {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Estilo de los elementos en modo oscuro */
+.dark-mode #elemento1 {
+  background-color: #1cecef;
+ 
+}
+
+.dark-mode #elemento2 {
+  background-color: #333;
+  border: 1px solid #e21818;
+}
+
+.dark-mode #elemento3 {
+  background-color: #f5f5f5;
+  color: #333;
+}
+ 
+#miImagen {
+  filter: invert(100%);
+  margin-top: 20px;
+  max-width: 100%;
+}
